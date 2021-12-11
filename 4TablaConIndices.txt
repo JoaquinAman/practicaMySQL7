@@ -1,0 +1,2 @@
+las cuatro tablas tienen indices clausterizados en los campos que son primary key(codigo -> curso, legajo -> estudiante, numero -> inscripcion, id -> profesor)
+las tablas curso e inscripcion tienen indices no clausterizados en los campos que son foreign key(PROFESOR_id -> curso, curso_codigo y estudiante_legajo -> inscripcion
